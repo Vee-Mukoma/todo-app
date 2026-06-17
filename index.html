@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My To-do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>to-do</h1>
+    </header>
+
+    <section class="container">
+        <div class="input-area">
+            <input type="text" id="task-input" placeholder="Add a new task...">
+            <button id="add">Add</button>
+        </div>
+
+        <div class="filter-bar">
+            <button id="all" class="active-filter">All</button>
+            <button id="active">Active</button>
+            <button id="complete">Complete</button>
+        </div>
+
+        <ul id="task-list">
+            <!-- Tasks will be dynamically added here -->
+        </ul>
+    </section>
+
+    <footer>
+        <p>© 2026 My To-do List App</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
